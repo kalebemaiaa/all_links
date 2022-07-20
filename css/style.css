@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap');
+
+body{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-image: linear-gradient(#FDA7DF, #5758BB);
+    box-shadow: 0 0 20px #fff;
+    width: 450px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+a{
+    margin: 2%;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-shadow: 1px 1px 5px #fff;
+    padding: 1%;
+}
+
+.link_website{
+    margin-left: auto;
+    margin-left: 10%;
+}
+
+.imagem_perfil{
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #000;
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+
+.fa-brands{
+    color: #000;
+    text-shadow: 0 0 5px #f00;
+}
+
+.fa-brands:hover{
+    transform: scale(1.05);
+    animation: teste 200ms linear;
+}
+
+@keyframes teste{
+    0%{
+        transform: translateX(5%);
+    }
+    25%{
+        transform: translateX(7%);
+    }
+    50%{
+        transform: translateX(10%);
+    }
+    75%{
+        transform: translateX(7%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
